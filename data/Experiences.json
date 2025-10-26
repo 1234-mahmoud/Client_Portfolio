@@ -1,0 +1,9 @@
+[
+  { "id":"1",
+    "job_title": "employee",
+    "comp_name":"comp 1",
+    "stDate": "1/1/2020",
+    "endDate": "3/3/2020",
+    "tasks": ["task1", "task2"]
+  }
+]

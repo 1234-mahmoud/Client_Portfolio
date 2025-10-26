@@ -1,0 +1,16 @@
+[
+  { "id":"1",
+    "project_name": "proj 1",
+    "stDate": "1/1/2020",
+    "endDate": "3/3/2020",
+    "tasks": ["task1", "task2"]
+  },
+
+   
+  { "id":"2",
+    "project_name": "proj 2",
+    "stDate": "1/1/2020",
+    "endDate": "3/3/2020",
+    "tasks": ["task1", "task2", "task3"]
+  }
+]
