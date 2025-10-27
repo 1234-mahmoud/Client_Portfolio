@@ -4,7 +4,8 @@ const cert = ["cer.webp", "cer.webp", "cer.webp", "cer.webp"];
 export default function Certificates() {
   return (
     <div
-      className={`w-full border my-4 rounded-lg p-[var(--main-padding)]
+      className={`w-full  my-4 rounded-lg p-[var(--main-padding)]
+        card
     `}
     >
       <h1 className='title'>Certificates</h1>

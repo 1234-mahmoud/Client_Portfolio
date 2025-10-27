@@ -2,8 +2,9 @@ import Image from "next/image";
 export default function About() {
   return (
     <div
-      className={`w-full border my-4 rounded-lg p-[var(--main-padding)]
-      
+      className={`w-full  my-4 rounded-lg p-[var(--main-padding)]
+      bg-[url('/hero.jpg')] bg-cover bg-no-repeat 
+     
     `}
     >
       <div
@@ -12,20 +13,22 @@ export default function About() {
     `}
       >
         <div
-          className={`img w-[150px] h-[150px] md:w-[200px] md:h-[200px] relative overflow-hidden 
+          className={`img w-[250px] h-[200px] md:w-[300px] md:h-[250px] relative overflow-hidden 
              rounded-full bg-center shrink-0`}
         >
           <Image
-            src="/user.webp"
+            src="/saud.png"
             alt="my pic"
             fill
-            sizes="(max-width: 768px) 150px, (max-width: 1200px) 200px, 200px"
-            className="object-cover"
+            sizes="(max-width: 768px) 200px, (max-width: 1200px) 300px, 300px"
+            className="object-contain"
           />
         </div>
         <div className="summry">
           <h1 className="font-bold text-2xl">I'm username <span className="text-[#feb429]">Filed</span> </h1>
-          <p className="w-full lg:w-[600px]">
+          <p className={`w-full lg:w-[600px] 
+            text-lg
+            `}>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est id
             blanditiis excepturi ipsa architecto natus labore alias rerum.
             Consequuntur autem quasi libero debitis quo dolore sit est repellat

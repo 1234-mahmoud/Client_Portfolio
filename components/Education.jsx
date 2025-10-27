@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Education() {
   return (
-    <div  className={`border my-4 rounded-lg p-[var(--main-padding)]
+    <div  className={` my-4 rounded-lg p-[var(--main-padding)] card
         `}>
 <h1 className='title'>Education</h1>
     <div
@@ -10,10 +10,10 @@ export default function Education() {
         flex flex-col
         `}
     >
-        <span>Degree</span>
-        <span>unv/instit name</span>
-        <span>Grade</span>
-        <span>Gradution Year</span>
+        <span className={`main-font-size`}>Degree</span>
+        <span className={`sub-font-size`}>unv/instit name</span>
+        <span className={`sub-font-size`}>Grade</span>
+        <span className={`sub-font-size`}>Gradution Year</span>
     </div>
     </div>
   );

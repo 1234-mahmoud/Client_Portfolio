@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 @import "tailwindcss";
+
 
 :root {
 --main-padding:15px;
@@ -7,12 +10,39 @@
 
 
 body {
-background-color: #f1f1f185;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif , "Share Tech";
+  font-weight: 400;
+  font-style: normal;
+background: #e6e6e662;
+
+
+
 }
 
 .title{
-  font-size:20px;
+  font-size:24px;
   font-weight:800;
   line-height: 42px;
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+width: 150px;
+text-align: center;
+border-radius: 5px;
+margin-bottom: 25px;
+}
+
+.card{
+  background-color: white;
+}
+
+/* .proj:not(:last-child){
+border-bottom: 1px solid #d1d5dc;
+} */
+
+.main-font-size{
+  font-size: 20px;
+}
+
+.sub-font-size{
+  font-size: 18px;
 }
