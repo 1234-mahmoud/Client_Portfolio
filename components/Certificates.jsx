@@ -21,12 +21,12 @@ export default function Certificates() {
         className={`
           
     flex flex-wrap justify-center items-center gap-5 overflow-hidden
-    ${show?'h-auto overflow-auto': cert.length >6? 'h-full lg:h-[730px]':''}
+    ${show?'h-auto overflow-auto': cert.length >6? 'max-sm:h-[265px] md:h-[530px] lg:h-[730px]':''}
     `}
       >
         {cert.map((c, idx) => (
           <div
-            className={`img w-full h-[250px] md:w-[300px] md:h-[250px] lg:w-[450px] lg:h-[350px]
+            className={`img w-full h-[250px] md:w-[300px] lg:w-[450px] lg:h-[350px]
                        relative overflow-hidden 
                         border  bg-center shrink-0 `}
                         key={idx}
